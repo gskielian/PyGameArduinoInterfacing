@@ -34,17 +34,15 @@ soundObj = pygame.mixer.Sound('bounce.wav')
 while True:
     windowSurfaceObj.fill(whiteColor)
 
-    pygame.draw.polygon(windowSurfaceObj, greenColor, ((146, 0), (291, 106), (236, 277), (56, 277), (0, 106)))
-    pygame.draw.circle(windowSurfaceObj, blueColor, (300, 50), 20, 0)
-    pygame.draw.ellipse(windowSurfaceObj, redColor, (300, 250, 40, 80), 1)
-    pygame.draw.rect(windowSurfaceObj, redColor, (10, 10, 50, 100))
-    pygame.draw.line(windowSurfaceObj, blueColor, (60, 160), (120, 60), 4)
 
-    pixArr = pygame.PixelArray(windowSurfaceObj)
-    for x in range(100, 200, 4):
-        for y in range(100, 200, 4):
-            pixArr[x][y] = redColor
-    del pixArr
+
+
+
+
+
+
+
+
 
 
     windowSurfaceObj.blit(catSurfaceObj, (mousex, mousey))
@@ -87,4 +85,4 @@ while True:
                 pygame.event.post(pygame.event.Event(QUIT))
 
     pygame.display.update()
-    fpsClock.tick(30) # pause to run the loop at 30 frames per second
+    fpsClock.tick(500) # pause to run the loop at 30 frames per second
