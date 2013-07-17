@@ -1,4 +1,4 @@
-###Interfacing Pygame and Arduino
+##Interfacing Pygame and Arduino
 
 
 Once pyserial is installed (http://pyserial.sourceforge.net/pyserial.html) you have the ability to communicate between your python app or python terminal and your Arduino.
