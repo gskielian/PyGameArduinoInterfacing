@@ -12,7 +12,7 @@ The code here is modified version of the pygamecheatsheet.py code with a few sim
 2. added   `ser = serial.Serial('/dev/tty/usbmodem1421',115200)` on line 13
 3. added serial writes via `ser.write('1')` when arrow keys are pressed (see lines 71 - 83)
 
-###Arduino Code
+###ArduinoCode.ino
 
 This code simply has the Arduino detect input written to its serial port, and uses this to figure out where to move.
 
